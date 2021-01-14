@@ -22,7 +22,7 @@ class App extends Component {
       var getPastFixtures=[];
       var i;
       var temp;
-      fetch('http://localhost:3000/',{
+      fetch('https://limitless-journey-52226.herokuapp.com/getFixtures',{
         method:'post',
         headers:{'Content-Type':'application/json'},
         body: JSON.stringify({
@@ -50,7 +50,7 @@ class App extends Component {
               }
               this.setState({gpastfixtures:getPastFixtures})
       })
-      fetch('http://localhost:3000/',{
+      fetch('https://limitless-journey-52226.herokuapp.com/getFixtures',{
         method:'post',
         headers:{'Content-Type':'application/json'},
         body: JSON.stringify({
