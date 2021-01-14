@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FootballPredictProject/static/css/main.65381e97.chunk.css",
+    "main.js": "/FootballPredictProject/static/js/main.1fa9d892.chunk.js",
+    "main.js.map": "/FootballPredictProject/static/js/main.1fa9d892.chunk.js.map",
+    "runtime-main.js": "/FootballPredictProject/static/js/runtime-main.47a034bb.js",
+    "runtime-main.js.map": "/FootballPredictProject/static/js/runtime-main.47a034bb.js.map",
+    "static/js/2.9a729b55.chunk.js": "/FootballPredictProject/static/js/2.9a729b55.chunk.js",
+    "static/js/2.9a729b55.chunk.js.map": "/FootballPredictProject/static/js/2.9a729b55.chunk.js.map",
+    "static/js/3.9fc0cf04.chunk.js": "/FootballPredictProject/static/js/3.9fc0cf04.chunk.js",
+    "static/js/3.9fc0cf04.chunk.js.map": "/FootballPredictProject/static/js/3.9fc0cf04.chunk.js.map",
+    "index.html": "/FootballPredictProject/index.html",
+    "static/css/main.65381e97.chunk.css.map": "/FootballPredictProject/static/css/main.65381e97.chunk.css.map",
+    "static/js/2.9a729b55.chunk.js.LICENSE.txt": "/FootballPredictProject/static/js/2.9a729b55.chunk.js.LICENSE.txt",
+    "static/media/France.4da6c563.png": "/FootballPredictProject/static/media/France.4da6c563.png",
+    "static/media/Germany.a1c65c61.png": "/FootballPredictProject/static/media/Germany.a1c65c61.png",
+    "static/media/Italy.c12de979.png": "/FootballPredictProject/static/media/Italy.c12de979.png",
+    "static/media/Spain.f3124806.png": "/FootballPredictProject/static/media/Spain.f3124806.png",
+    "static/media/logo.9c0eb125.png": "/FootballPredictProject/static/media/logo.9c0eb125.png",
+    "static/media/meTemp.8af522c2.png": "/FootballPredictProject/static/media/meTemp.8af522c2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47a034bb.js",
+    "static/js/2.9a729b55.chunk.js",
+    "static/css/main.65381e97.chunk.css",
+    "static/js/main.1fa9d892.chunk.js"
+  ]
+}
