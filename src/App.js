@@ -27,34 +27,6 @@ class App extends Component {
         headers:{'Content-Type':'application/json'},
         body: JSON.stringify({
             league: league,
-            typetable: "P"
-        })
-      })
-      .then(response => response.json())
-      .then(fixtures => {
-            //If successfull
-                //Get information and put in array
-              if(fixtures.length){
-                  for (i = 0; i < fixtures.length; i++){
-                      temp={
-                          Date:fixtures[i][0],
-                          homeTeam:fixtures[i][1],
-                          awayTeam:fixtures[i][2],
-                          tp:fixtures[i][3],
-                          tpr:fixtures[i][4],
-                          ar:fixtures[i][5],
-                          pc:fixtures[i][6]
-                          };
-                          getPastFixtures.push(temp);
-                          }
-              }
-              this.setState({gpastfixtures:getPastFixtures})
-      })
-      fetch('https://limitless-journey-52226.herokuapp.com/getFixtures',{
-        method:'post',
-        headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({
-            league: league,
             typetable: "N"
         })
       })
@@ -77,6 +49,34 @@ class App extends Component {
                           }
               }
               this.setState({gfixtures:getFixtures})
+      })
+      fetch('https://limitless-journey-52226.herokuapp.com/getFixtures',{
+        method:'post',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({
+            league: league,
+            typetable: "P"
+        })
+      })
+      .then(response => response.json())
+      .then(fixtures => {
+            //If successfull
+                //Get information and put in array
+              if(fixtures.length){
+                  for (i = 0; i < fixtures.length; i++){
+                      temp={
+                          Date:fixtures[i][0],
+                          homeTeam:fixtures[i][1],
+                          awayTeam:fixtures[i][2],
+                          tp:fixtures[i][3],
+                          tpr:fixtures[i][4],
+                          ar:fixtures[i][5],
+                          pc:fixtures[i][6]
+                          };
+                          getPastFixtures.push(temp);
+                          }
+              }
+              this.setState({gpastfixtures:getPastFixtures})
       })
     }
     onLeagueChange=(league)=>{
