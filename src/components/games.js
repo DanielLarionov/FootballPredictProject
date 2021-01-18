@@ -93,7 +93,7 @@ const games = ({getFixtures,getPastFixtures,onLeagueChange}) =>  {
                     <div className="divider-custom-line"></div>
                     <div className="divider-custom-line"></div>
                 </div>
-                <div>
+                <div class="table-responsive">
                 <ReactBootstrap.Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
@@ -118,7 +118,7 @@ const games = ({getFixtures,getPastFixtures,onLeagueChange}) =>  {
                     <div className="divider-custom-line"></div>
                     <div className="divider-custom-line"></div>
                 </div>
-                <div>
+                <div class="table-responsive">
                 <ReactBootstrap.Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
