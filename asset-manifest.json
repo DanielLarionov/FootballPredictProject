@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FootballPredictProject/static/css/main.65381e97.chunk.css",
-    "main.js": "/FootballPredictProject/static/js/main.c28f92c0.chunk.js",
-    "main.js.map": "/FootballPredictProject/static/js/main.c28f92c0.chunk.js.map",
+    "main.js": "/FootballPredictProject/static/js/main.995ab8f8.chunk.js",
+    "main.js.map": "/FootballPredictProject/static/js/main.995ab8f8.chunk.js.map",
     "runtime-main.js": "/FootballPredictProject/static/js/runtime-main.47a034bb.js",
     "runtime-main.js.map": "/FootballPredictProject/static/js/runtime-main.47a034bb.js.map",
     "static/js/2.9a729b55.chunk.js": "/FootballPredictProject/static/js/2.9a729b55.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.47a034bb.js",
     "static/js/2.9a729b55.chunk.js",
     "static/css/main.65381e97.chunk.css",
-    "static/js/main.c28f92c0.chunk.js"
+    "static/js/main.995ab8f8.chunk.js"
   ]
 }
